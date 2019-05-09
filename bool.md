@@ -16,7 +16,7 @@ int main()
 
 下面我们来看看[`stdbool.h`](https://github.com/gcc-mirror/gcc/blob/master/gcc/ginclude/stdbool.h)头文件核心部分：
 
-```
+```c
 #define bool    _Bool
 #define true    1
 #define false   0
